@@ -1,0 +1,34 @@
+const prompt = require ('prompt-sync')();
+let estoque = ["Tesoura", "Papel"];
+let resposta, produto;
+
+function listarEstoque (lista){ // "Lista" é uma entrada genérica, não apenas o "estoque" irá apaarecer, mas sim o as listas
+    console.log(lista);
+}
+function AdicionarProduto (lista, produto){
+    lista.push(produto);
+}
+do{
+    console.log ("--------------");
+    console.log("Menu do Estoque");
+    console.log("1 - Listar todos o Estoque");
+    console.log("2 - Adicionar Produto no Estoque");
+    console.log("3 - Remover Produto do Estoque");
+    console.log("4 - Encerrar Programa!");
+    console.log ("---------------------");
+
+    resposta = prompt("Digite a Opção: ");
+    console.log("---------------------");
+
+    if (resposta==1){ //Sintaxe da resposta, se a resposta for 1 o programa aprensenta o estoque
+        listarEstoque (estoque); // Chama a lista definida, está colocando a função para chamar, por isso ñ é de forma genérica 
+    }
+    if (resposta==2){
+        produto = prompt("Digite o produto que será adicionado: "); 
+        AdicionarProduto(estoque, produto);
+    }
+    
+
+} while (resposta!=4);
+
+
