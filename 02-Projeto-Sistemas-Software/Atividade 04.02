@@ -1,0 +1,40 @@
+-- Online SQL Editor to Run SQL Online.
+-- Use the editor to create new tables, insert data and all other SQL operations.
+
+--SELECT nome, nacionalidade
+--FROM Autores
+
+--SELECT titulo
+--FROM Livros
+--WHERE preco >=30 and preco <50
+
+--SELECT nome
+--FROM Autores
+--WHERE id_autor = 1 or id_autor = 2
+
+--SELECT titulo
+--FROM Livros
+--WHERE titulo like 'm%' and preco >30
+
+--SELECT nome
+--FROM Autores
+--WHERE NOT nacionalidade = "Brasileira"
+
+--INSERT INTO Autores VALUES ('05','Ana Paula Gomes', 'Brasileira');
+--INSERT INTO Autores VALUES ('06', 'Collen Hoover', 'Americana');
+
+--INSERT INTO Livros VALUES ('105', 'A hora da Estela','4', '32.50', '6');
+--INSERT INTO Livros VALUES ('106', 'R.P.: Como um rio corre para o mar', '5','57','10');
+--INSERT INTO Livros VALUES ('107', 'Tempo de Paz', '5', '42', '10');
+--INSERT INTO Livros VALUES ('108', 'Verity', '6', '39.90','5');
+
+--SELECT titulo
+--FROM Livros
+--WHERE NOT titulo like '%e%'
+
+--SELECT preco
+--FROM Livros
+--WHERE
+
+SELECT titulo 
+FROM Livros
