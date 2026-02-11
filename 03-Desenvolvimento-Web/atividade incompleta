@@ -1,0 +1,19 @@
+-- CREATE TABLE Moradores_andar_3 (id_morador, nome,telefone,cpf);
+
+--INSERT INTO Moradores_andar_3 
+ --VALUES ('3.1', 'Igor Andrade','79XXXX-XXXX', '983.XXX.XXX-XX');
+--VALUES ('3.2', 'Maria Solange','79XXXX-XXXX','654.XXX.XXX-XX');
+--VALUES ('3.3', 'João Cortez','79XXXX-XXXX','087.XXX.XXX-XX');
+
+--DELETE FROM Moradores_andar_3
+--WHERE id_morador = '3.1'
+-- Estava se repetindo o valor do id 3.1
+
+CREATE TABLE Apartamentos
+( id_apartamento,
+ id_predio,
+ id_morador, 
+ numero,
+ andar,
+ status);
+ 
