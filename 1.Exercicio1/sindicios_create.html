@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Síndico</title>
+</head>
+<body>
+    <header align="center">
+        <h1>🎓 Editar Síndico</h1>
+        <nav>
+            <a href="sindicos.html">Voltar aos Síndicos</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div align="center">
+            <h2>Formulário de Edição de Síndico</h2>
+            <form>
+                <div>
+                    <label><b>ID:</b></label>
+                    <input type="text" value="1" disabled>
+                </div>
+                
+                <div>
+                    <label><b>Nome:</b></label>
+                    <input type="text" value="Carlos Rodriguez" required>
+                </div>
+                
+                <div>
+                    <label><b>CPF:</b></label>
+                    <input type="text" value="111.222.333-44" placeholder="XXX.XXX.XXX-XX" required>
+                </div>
+                
+                <div>
+                    <label><b>Email:</b></label>
+                    <input type="email" value="carlos@condominio.com" required>
+                </div>
+                
+                <div>
+                    <label><b>Início do Mandato:</b></label>
+                    <input type="date" value="2024-01-01" required>
+                </div>
+                
+                <div>
+                    <label><b>Fim do Mandato:</b></label>
+                    <input type="date" value="2026-12-31" required>
+                </div>
+                
+                <div>
+                    <button type="submit">Salvar</button>
+                    <button type="button" onclick="window.location.href='sindicos.html'">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer align="center">
+        <small>Sistema de Gestão do Condomínio</small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Documento</title>
+</head>
+<body>
+    <header align="center">
+        <h1>📄 Editar Documento</h1>
+        <nav>
+            <a href="documentos.html">Voltar aos Documentos</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div align="center">
+            <h2>Formulário de Edição de Documento</h2>
+            <form>
+                <div>
+                    <label><b>ID:</b></label>
+                    <input type="text" value="1" disabled>
+                </div>
+                
+                <div>
+                    <label><b>Descrição:</b></label>
+                    <input type="text" value="Ata de Assembleia - Fevereiro 2026" required>
+                </div>
+                
+                <div>
+                    <label><b>Tipo:</b></label>
+                    <select required>
+                        <option value="ata" selected>Ata</option>
+                        <option value="contrato">Contrato</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="relatorio">Relatório</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label><b>Síndico Responsável:</b></label>
+                    <select required>
+                        <option value="carlos" selected>Carlos Rodriguez</option>
+                        <option value="ana">Ana Costa</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label><b>Aprovado:</b></label>
+                    <select required>
+                        <option value="nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label><b>Valor(R$):</b></label>
+                    <input type="number" placeholder="Deixe em branco se não aplicável" step="0.01">
+                </div>
+                <div>
+                    <button type="submit">Salvar</button>
+                    <button type="button" onclick="window.location.href='documentos.html'">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer align="center">
+        <small>Sistema de Gestão do Condomínio</small>
+    </footer>
+</body>
+</html>

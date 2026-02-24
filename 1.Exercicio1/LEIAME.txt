@@ -1,0 +1,8 @@
+Exercicio 1) Neste exercicio voce precisa se basear nos exemplos de páginas similares
+e no modelo lógico (modelo_ER.png) para criar as páginas html que faltam:
+- documentos.html
+- receitas_edit.html
+- index.html, para incluir o item de menu sindicos com as 
+  seguintes informações.
+    🎓 Síndicos
+    Informações sobre os síndicos do condomínio.
