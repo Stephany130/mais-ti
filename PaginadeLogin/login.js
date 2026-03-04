@@ -1,4 +1,2 @@
-function validador(){
-    return validaEmail()&&validaSenha()
+function 
 
-}
