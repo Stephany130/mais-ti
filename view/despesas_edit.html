@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Despesa</title>
+</head>
+<body>
+    <header align="center">
+        <h1>💸 Editar Despesa</h1>
+        <nav>
+            <a href="despesas.html">Voltar às Despesas</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div align="center">
+            <h2>Formulário de Edição de Despesa</h2>
+            <form>
+                <div>
+                    <label><b>ID:</b></label>
+                    <input type="text" value="1" disabled>
+                </div>
+                
+                <div>
+                    <label><b>Categoria:</b></label>
+                    <select required>
+                        <option value="">Selecione uma categoria</option>
+                        <option value="manutencao" selected>Manutenção</option>
+                        <option value="limpeza">Limpeza</option>
+                        <option value="seguranca">Segurança</option>
+                        <option value="uteis">Utilidades</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label><b>Descrição:</b></label>
+                    <input type="text" value="Manutenção Hidráulica" required>
+                </div>
+                
+                <div>
+                    <label><b>Valor Total (R$):</b></label>
+                    <input type="number" value="250.00" step="0.01" required>
+                </div>
+                
+                <div>
+                    <label><b>Vencimento:</b></label>
+                    <input type="date" value="2026-02-15" required>
+                </div>
+                
+                <div>
+                    <label><b>Pago:</b></label>
+                    <select required>
+                        <option value="nao">Não</option>
+                        <option value="sim" selected>Sim</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label><b>Contato Cobrança:</b></label>
+                    <input type="text" value="Hidro Service" required>
+                </div>
+                
+                <div>
+                    <button type="submit">Salvar</button>
+                    <button type="button" onclick="window.location.href='despesas.html'">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer align="center">
+        <small>Sistema de Gestão do Condomínio</small>
+    </footer>
+</body>
+</html>
