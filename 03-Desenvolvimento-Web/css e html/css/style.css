@@ -1,0 +1,33 @@
+  p {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #000000;
+    width: 300px;
+  }
+
+  p {
+    font-family:Helvetica;
+  }
+
+  #primeiroParagrafo {
+    font-style: italic;
+  }
+
+  #segundoParagrafo {
+    font-weight: bold;
+    font-style: times;
+  }
+
+  #terceiroParagrafo {
+    font-size: 32px;
+  }
+
+  
+  <h1> Primeiro Css </h1>
+  <p id="primeiroParagrafo">
+  primeiro parágrafo tem uma parte em <span> destaque </span>.</p>
+  <p id="segundoParagrafo">
+segundo Parágrafo <span> texto aleatório</span>.</p>
+<p id="terceiroParagrafo">
+terceiro Parágrafo.</p>

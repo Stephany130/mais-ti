@@ -1,0 +1,1 @@
+Com base no index_top.html fornecido, estruture uma outra opção de layout com um menu lateral (side bar), contendo os mesmos itens.
