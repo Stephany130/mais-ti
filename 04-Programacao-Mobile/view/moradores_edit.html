@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Morador</title>
+</head>
+<body>
+    <header align="center">
+        <h1>👥 Editar Morador</h1>
+        <nav>
+            <a href="moradores.html">Voltar aos Moradores</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div align="center">
+            <h2>Formulário de Edição de Morador</h2>
+            <form>
+                <div>
+                    <label><b>ID:</b></label>
+                    <input type="text" value="1" disabled>
+                </div>
+                
+                <div>
+                    <label><b>Nome:</b></label>
+                    <input type="text" value="João Silva" required>
+                </div>
+                
+                <div>
+                    <label><b>CPF:</b></label>
+                    <input type="text" value="123.456.789-00" placeholder="XXX.XXX.XXX-XX" required>
+                </div>
+                
+                <div>
+                    <label><b>Telefone:</b></label>
+                    <input type="tel" value="(85) 99999-1111" placeholder="(XX) 9XXXX-XXXX" required>
+                </div>
+                
+                <div>
+                    <label><b>Apartamento:</b></label>
+                    <input type="number" value="101" required>
+                </div>
+                
+                <div>
+                    <button type="submit">Salvar</button>
+                    <button type="button" onclick="window.location.href='moradores.html'">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer align="center">
+        <small>Sistema de Gestão do Condomínio</small>
+    </footer>
+</body>
+</html>
